@@ -1,0 +1,59 @@
+body,
+html {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 13px;
+}
+
+.input {
+  display: block;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  padding: 15px;
+  width: 380px;
+  margin: 10px auto;
+  background-color: transparent;
+}
+
+.frameworks select {
+  width: 410px;
+}
+
+.hobbies,
+.frameworks {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hobby {
+  width: 475px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 63px;
+}
+
+.hobby input {
+  margin-right: 5px;
+}
+
+.addHobby {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.sendForm {
+  display: block;
+  margin: 30px auto 0;
+  padding: 10px 20px;
+  background-color: #b2e1ac;
+  border-radius: 10px;
+  border: none;
+}
+
+.sendForm:hover {
+  background-color: #69a162;
+}
